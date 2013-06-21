@@ -1,5 +1,5 @@
 /* Google Web Fonts FTW, falling back to standard theme fonts (order changed). */
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700|PT+Sans:400,700|Roboto:400,100,300,500,700,900);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Roboto:400,100,300,500,700,900);
 
 html, body#tinymce {background-color:#fafafa;}
 body {font-family: Roboto, verdana, helvetica, arial, sans-serif;padding: 4px; font-weight: 300;}
@@ -292,7 +292,7 @@ table#tag-management-list {margin: 10px auto;width: 80%;}
 /**
  * overriding base
  */
-#page-header .headermain {font-size:1.5em;}
+#page-header .headermain {font-size:1.8em;}
 .pagelayout-frontpage #page-header {border-bottom:2px groove #999;margin:0 0.5%;width:99%;}
 .has_custom_menu.pagelayout-frontpage #page-header {border-bottom-width:0;}
 
