@@ -28,9 +28,9 @@
  */
 
 .block.hidden {
-  -moz-border-radius: 0;
+     -moz-border-radius: 0;
   -webkit-border-radius: 0;
-  border-radius: 0;
+          border-radius: 0;
 }
 
 .headingblock,
@@ -46,132 +46,135 @@ table.minicalendar td,
 .path-calendar .filters td.calendar_event_global,
 .path-calendar .filters td.calendar_event_user,
 .path-calendar .filters td.calendar_event_group {
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+     -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
 }
 
 .noticebox,
 .gradingform_rubric_editform .status {
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+     -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
 }
 
 .coursebox,
 .notifyproblem,
 .notifysuccess,
 table.minicalendar {
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+     -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+          border-radius: 20px;
 }
 
 .sitetopiccontent {
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+     -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+          border-radius: 20px;
 }
 
 #page-report-outline-user .section {
-  -moz-border-radius:10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+     -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+          border-radius: 20px;
 }
 
 .generalbox,
 .generalboxcontent,
 .informationbox,
 .informationboxcontent {
-    -webkit-border-radius: 3px;
-       -moz-border-radius: 3px;
-            border-radius: 3px;
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
 }
 
 .editing .block_course_summary .content {
-  -moz-border-radius-topleft:0;
-  -moz-border-radius-topright:0;
-  -webkit-border-top-left-radius: 0;
+       -moz-border-radius-topleft: 0;
+      -moz-border-radius-topright: 0;
+   -webkit-border-top-left-radius: 0;
   -webkit-border-top-right-radius: 0;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+           border-top-left-radius: 0;
+          border-top-right-radius: 0;
 }
 
 .entryboxheader {
-  -moz-border-radius-topleft:10px;
-  -moz-border-radius-topright:10px;
-  -webkit-border-top-left-radius: 10px;
-  -webkit-border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+       -moz-border-radius-topleft: 20px;
+      -moz-border-radius-topright: 20px;
+   -webkit-border-top-left-radius: 20px;
+  -webkit-border-top-right-radius: 20px;
+           border-top-left-radius: 20px;
+          border-top-right-radius: 20px;
 }
 
 .generaltabselected,
 .generaltab, .generaltabinactive,
 .glossarycategoryheader,
-.glossaryformatheader {
-  -moz-border-radius-topleft:15px;
-  -moz-border-radius-topright:15px;
-  -webkit-border-top-left-radius: 15px;
-  -webkit-border-top-right-radius: 15px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+.glossaryformatheader,
+#page-header {
+       -moz-border-radius-topleft: 25px;
+      -moz-border-radius-topright: 25px;
+   -webkit-border-top-left-radius: 25px;
+  -webkit-border-top-right-radius: 25px;
+           border-top-left-radius: 25px;
+          border-top-right-radius: 25px;
 }
 
 .entrybox {
-  -moz-border-radius-bottomleft:10px;
-  -moz-border-radius-bottomright:10px;
-  -webkit-border-bottom-left-radius: 10px;
+       -moz-border-radius-bottomleft: 10px;
+      -moz-border-radius-bottomright: 10px;
+   -webkit-border-bottom-left-radius: 10px;
   -webkit-border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+           border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
 }
 
 .path-calendar .eventlist .event,
 .glossarypost,
-#page-mod-journal-view .feedbackbox{
-  -moz-border-radius-bottomleft:15px;
-  -moz-border-radius-bottomright:15px;
-  -webkit-border-bottom-left-radius: 15px;
-  -webkit-border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+#page-mod-journal-view .feedbackbox {
+       -moz-border-radius-bottomleft: 25px;
+      -moz-border-radius-bottomright: 25px;
+   -webkit-border-bottom-left-radius: 25px;
+  -webkit-border-bottom-right-radius: 25px;
+           border-bottom-left-radius: 25px;
+          border-bottom-right-radius: 25px;
 }
 
 .path-calendar .eventlist .event .side,
 .glossarypost .side,
 #page-mod-journal-view .feedbackbox .side {
-  -moz-border-radius-bottomleft:15px;
+       -moz-border-radius-bottomleft:15px;
   -webkit-border-bottom-left-radius: 15px;
-  border-bottom-left-radius: 15px;
+          border-bottom-left-radius: 15px;
 }
+
 .dir-rtl.path-calendar .eventlist .event .side,
 .dir-rtl .glossarypost .side,
 .dir-rtl#page-mod-journal-view .feedbackbox .side {
-  -moz-border-radius-bottomleft:0;
-  -webkit-border-bottom-left-radius: 0;
-  border-bottom-left-radius: 0;
-  -moz-border-radius-bottomright:15px;
+       -moz-border-radius-bottomleft: 0;
+   -webkit-border-bottom-left-radius: 0;
+           border-bottom-left-radius: 0;
+      -moz-border-radius-bottomright: 15px;
   -webkit-border-bottom-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+          border-bottom-right-radius: 15px;
 }
 
 .path-calendar .eventlist .event .description,
 .encyclopedia .entrylowersection,
 #page-mod-journal-view .feedbackbox .entrycontent {
-  -moz-border-radius-bottomright:15px;
+      -moz-border-radius-bottomright: 15px;
   -webkit-border-bottom-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+          border-bottom-right-radius: 15px;
 }
+
 .dir-rtl.path-calendar .eventlist .event .description,
 .dir-rtl .encyclopedia .entrylowersection,
 .dir-rtl#page-mod-journal-view .feedbackbox .entrycontent {
-  -moz-border-radius-bottomright:0;
+      -moz-border-radius-bottomright: 0;
   -webkit-border-bottom-right-radius: 0;
-  border-bottom-right-radius: 0;
-  -moz-border-radius-bottomleft:15px;
-  -webkit-border-bottom-left-radius: 15px;
-  border-bottom-left-radius: 15px;
+          border-bottom-right-radius: 0;
+       -moz-border-radius-bottomleft: 15px;
+   -webkit-border-bottom-left-radius: 15px;
+           border-bottom-left-radius: 15px;
 }
 
 .path-calendar .maincalendar,
@@ -181,23 +184,24 @@ table.minicalendar {
 .userinfobox,
 .groupinfobox,
 .forumpost,
+.block,
 .block .content,
 .glossarycomment {
-  -moz-border-radius-bottomright:10px;
-  -moz-border-radius-bottomleft:10px;
-  -webkit-border-bottom-left-radius: 10px;
+      -moz-border-radius-bottomright: 10px;
+       -moz-border-radius-bottomleft: 10px;
+   -webkit-border-bottom-left-radius: 10px;
   -webkit-border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+           border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
 }
 
 .loginbox .content.left,
 #page-user-view .left,
 .forumpost .side,
 .glossarycomment .side {
-  -moz-border-radius-bottomleft:10px;
+      -moz-border-radius-bottomleft: 10px;
   -webkit-border-bottom-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+          border-bottom-left-radius: 10px;
 }
 
 .loginbox .content.right,
@@ -205,9 +209,9 @@ table.minicalendar {
 .forumpost .message,
 .forumpost .side,
 .glossarycomment .entry {
-  -moz-border-radius-bottomright:10px;
+      -moz-border-radius-bottomright: 10px;
   -webkit-border-bottom-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+          border-bottom-right-radius: 10px;
 }
 
 #quiznavigation .qnbutton {
@@ -216,33 +220,67 @@ table.minicalendar {
 
 #page-mod-quiz-edit div.editq div.question div.content,
 #page-mod-quiz-edit div.quizpage .pagecontent {
-  -moz-border-radius-topright: 0.6em;
-  -moz-border-radius-bottomright: 0.6em;
-  -webkit-border-top-right-radius: 0.6em;
+         -moz-border-radius-topright: 0.6em;
+      -moz-border-radius-bottomright: 0.6em;
+     -webkit-border-top-right-radius: 0.6em;
   -webkit-border-bottom-right-radius: 0.6em;
-  border-top-right-radius: 0.6em;
-  border-bottom-right-radius: 0.6em;
+             border-top-right-radius: 0.6em;
+          border-bottom-right-radius: 0.6em;
 }
+
 #page-mod-quiz-edit div.quizpage .pagecontent .pagestatus,
-#page-mod-quiz-edit .reorder div.question div.content{
-  -moz-border-radius-topright: 0.3em;
-  -moz-border-radius-bottomright: 0.3em;
-  -webkit-border-top-right-radius: 0.3em;
+#page-mod-quiz-edit .reorder div.question div.content {
+         -moz-border-radius-topright: 0.3em;
+      -moz-border-radius-bottomright: 0.3em;
+     -webkit-border-top-right-radius: 0.3em;
   -webkit-border-bottom-right-radius: 0.3em;
-  border-top-right-radius: 0.3em;
-  border-bottom-right-radius: 0.3em;
+             border-top-right-radius: 0.3em;
+          border-bottom-right-radius: 0.3em;
 }
+
 #page-mod-quiz-edit div.question div.content div.points,
 #page-mod-quiz-edit div.question div.content div.qorder {
-  -moz-border-radius-topright: 0.2em;
-  -moz-border-radius-bottomright: 0.2em;
-  -webkit-border-top-right-radius: 0.2em;
+         -moz-border-radius-topright: 0.2em;
+      -moz-border-radius-bottomright: 0.2em;
+     -webkit-border-top-right-radius: 0.2em;
   -webkit-border-bottom-right-radius: 0.2em;
-  border-top-right-radius: 0.2em;
-  border-bottom-right-radius: 0.2em;
+             border-top-right-radius: 0.2em;
+          border-bottom-right-radius: 0.2em;
 }
-#page-mod-quiz-edit div.quizpage .pagecontent form#addquestion{
-    -moz-border-radius:0.2em;
-    -webkit-border-radius: 0.2em;
-    border-radius: 0.2em;
+
+#page-mod-quiz-edit div.quizpage .pagecontent form#addquestion {
+     -moz-border-radius: 0.2em;
+  -webkit-border-radius: 0.2em;
+          border-radius: 0.2em;
+}
+
+/* Additional CSS3 fun */
+
+#page-header {
+  background-image:         linear-gradient(top, #4f2170 0%, #fafafa 100%);
+  background-image:      -o-linear-gradient(top, #4f2170 0%, #fafafa 100%);
+  background-image:    -moz-linear-gradient(top, #4f2170 0%, #fafafa 100%);
+  background-image: -webkit-linear-gradient(top, #4f2170 0%, #fafafa 100%);
+  background-image:     -ms-linear-gradient(top, #4f2170 0%, #fafafa 100%);
+
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #4f2170),
+    color-stop(1, #fafafa)
+  );
+}
+
+#page-header .headermain,
+.logininfo {
+  color: #fff;
+}
+
+#page-header .logininfo a {
+  color: #ccc;
+  text-decoration: none;
+}
+#page-header .logininfo a:hover {
+  text-decoration: underline;
 }
