@@ -294,6 +294,9 @@ table.minicalendar {
 /* 'Band' of colour for minor headers. */
 .generaltable tbody th,
 #frontpage-course-list .header,
+#frontpage-category-names .header,
+#site-news-forum .header,
+#frontpage-category-combo .header,
 .single-section .header {
   background-image:         linear-gradient(top, #fafafa, #cab1dc, #fafafa);
   background-image:      -o-linear-gradient(top, #fafafa, #cab1dc, #fafafa);
