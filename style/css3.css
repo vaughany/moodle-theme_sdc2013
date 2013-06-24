@@ -272,12 +272,14 @@ table.minicalendar {
   );
 }
 
-.block .header {
-  background-image:         linear-gradient(top, #9d79b7 0%, #fafafa 100%);
-  background-image:      -o-linear-gradient(top, #9d79b7 0%, #fafafa 100%);
-  background-image:    -moz-linear-gradient(top, #9d79b7 0%, #fafafa 100%);
-  background-image: -webkit-linear-gradient(top, #9d79b7 0%, #fafafa 100%);
-  background-image:     -ms-linear-gradient(top, #9d79b7 0%, #fafafa 100%);
+/* Purple-white gradient fill. */
+.block .header,
+.generaltable thead th {
+  background-image:         linear-gradient(top, #9d79b7, #fafafa);
+  background-image:      -o-linear-gradient(top, #9d79b7, #fafafa);
+  background-image:    -moz-linear-gradient(top, #9d79b7, #fafafa);
+  background-image: -webkit-linear-gradient(top, #9d79b7, #fafafa);
+  background-image:     -ms-linear-gradient(top, #9d79b7, #fafafa);
 
   background-image: -webkit-gradient(
     linear,
@@ -288,7 +290,32 @@ table.minicalendar {
   );
 }
 
-.block .header h2 {
+
+/* 'Band' of colour for minor headers. */
+.generaltable tbody th,
+#frontpage-course-list .header,
+.single-section .header {
+  background-image:         linear-gradient(top, #fafafa, #cab1dc, #fafafa);
+  background-image:      -o-linear-gradient(top, #fafafa, #cab1dc, #fafafa);
+  background-image:    -moz-linear-gradient(top, #fafafa, #cab1dc, #fafafa);
+  background-image: -webkit-linear-gradient(top, #fafafa, #cab1dc, #fafafa);
+  background-image:     -ms-linear-gradient(top, #fafafa, #cab1dc, #fafafa);
+
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #fafafa),
+    color-stop(0.5, #cab1dc),
+    color-stop(1, #fafafa)
+  );
+}
+
+.block .header h2,
+#frontpage-course-list h2.header,
+.header div.title,
+.generaltable thead th,
+.generaltable tbody th {
   color: #222;
   text-shadow: 1px 1px 3px rgba(255, 255, 255, .8);
 }
@@ -310,4 +337,8 @@ table.minicalendar {
 
 #page-header h1 {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
+}
+
+.course-content .single-section .section-navigation {
+  margin-bottom: .5em;
 }
