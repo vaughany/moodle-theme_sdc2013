@@ -397,7 +397,7 @@ table#tag-management-list {margin: 10px auto;width: 80%;}
  */
 .pagelayout-frontpage #custommenu {padding:0 2px;}
 #custommenu {padding:0 10px;}
-#custommenu .yui3-menu {background-image:url([[pix:theme|hgradient]]);background-repeat: repeat-x;background-color:#e1e1df;}
+#custommenu .yui3-menu {background-image:url([[pix:theme|hgradient_grey]]);background-repeat: repeat-x;background-color:#e1e1df;}
 #custommenu .yui3-menu .yui3-menu {background-image:none;background-color:#fff;}
 #custommenu .yui3-menu .yui3-menu-label,
 #custommenu .yui3-menu .yui3-menuitem-content,
@@ -472,4 +472,31 @@ table#tag-management-list {margin: 10px auto;width: 80%;}
     float: left;
     padding-top: 10px;
     padding-left: 5px;
+}
+
+#profilepic {
+    text-align: right;
+    float: right;
+/*    margin-top: 0;
+    margin-left: 5px;
+    margin-bottom: 0;
+    margin-right: 0;
+*/
+    margin: 0 0 0 5px;
+    width: 80px;
+    height: 80px;
+    /*border: 1px solid #eeeeee;*/
+    display: inline;
+}
+#profilepic img {
+    width: 74px;
+    height: 74px;
+    border: 3px solid #ffffff;
+}
+.headermenu {
+    width: 500px;
+    margin-bottom: 0;
+}
+#page-header .logininfo {
+    margin-top: 3px;
 }
